@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marketplace App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header> 
@@ -12,37 +13,45 @@
     </header>
     <main>
         <section id="Products">
-            <div>
-                <h2>Product Feature</h2>
-                <div>
+            <h2>Product Feature </h2>
+                <div class="products">
                     <h3>Product 1</h3>
-                    <p>This section will show the details of our products.</p>
                     <img src="https://via.placeholder.com/600x400" alt="Placeholder Image" style="width:600px;height:400px;">
+                    <p>This section will show the details of our products.</p>
                     <h4>Description of Product 1</h4>
                     <ul>
                         <li>Price: 500 sek</li>
                         <li>Category: Mobile</li>
                         <li>Rating: 4/5</li>
                     </ul>
-                    <p>Contact us via :sobiabashir_786@hotmail.com email for further assistance.</p>
-                    <button type="button">View Details</button>
+                    <div class ="email-field">
+                        <label for="email"> Email:</label>
+                        sobiabashir_786@hotmail.com"
+                    </div>
+                    <button>View Details</button>
                 </div>
-                <div>
+                <div class="products">
                     <h3>Product 2</h3>
                     <img src="https://via.placeholder.com/600x400" alt="Placeholder Image" style="width:600px;height:400px;">
-                    <h4>Description of Product 2</h4>
+                    <p>Description of Product 2</p>
                     <ul>
                         <li>Price: 250 sek</li>
                         <li>Category: Home</li>
                         <li>Rating: 4/5</li>
                     </ul>
-                    <p>Contact us via <a href="mailto:sobiabashir_786@hotmail.com">email</a> for further assistance.</p>
-                    <button type="button">View Details</button>
+                    <div class ="email-field">
+                        <label for="email"> Email:</label>
+                        sobiabashir_786@hotmail.com"
+                    </div>
+                    <button>View Details</button>
                 </div>
-            </div>
         </section>
+        <br/>
     </main>
-    <br>
-    <div>&copy; 2024 Lexicon</div>
+    
+    <footer>
+        &copy; 2024 Lexicon
+    </footer>
+    
 </body>
 </html>

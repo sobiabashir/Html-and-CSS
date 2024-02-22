@@ -1,0 +1,76 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d0d4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #d10000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+/* Main Styles */
+#Products {
+    
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+    
+}
+
+.products {
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Product Image Styles */
+.products img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Email Field Styles */
+.email-field {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+section#Products > div > div > button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+footer {
+    background-color: #000000; 
+    color: #fff;
+    text-align: center; 
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    
+}
+
